@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample Webpage</title>
+    <style>
+        /* Import the provided CSS */
+        @import url('inpage.css');
+        
+        /* Additional custom styles */
+        body {
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="bg-primary text-white py-4">
+        <div class="container mx-auto px-4 flex justify-between items-center">
+            <div class="text-2xl font-bold">My Website</div>
+            <div class="hidden md:flex space-x-4">
+                <a href="#" class="hover:text-grey-lighter">Home</a>
+                <a href="#" class="hover:text-grey-lighter">About</a>
+                <a href="#" class="hover:text-grey-lighter">Services</a>
+                <a href="#" class="hover:text-grey-lighter">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="bg-grey-lightest py-20">
+        <div class="container mx-auto px-4">
+            <div class="text-center">
+                <h1 class="text-5xl font-bold text-grey-darkest mb-6">Welcome to Our Website</h1>
+                <p class="text-xl text-grey-dark mb-8">We create amazing digital experiences</p>
+                <button class="bg-secondary hover:bg-secondary-dark text-white font-bold py-3 px-8 rounded-lg">
+                    Get Started
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="py-16">
+        <div class="container mx-auto px-4">
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Feature 1 -->
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-2xl font-bold text-grey-darkest mb-4">Feature 1</h3>
+                    <p class="text-grey-dark">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+                <!-- Feature 2 -->
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-2xl font-bold text-grey-darkest mb-4">Feature 2</h3>
+                    <p class="text-grey-dark">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+                <!-- Feature 3 -->
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-2xl font-bold text-grey-darkest mb-4">Feature 3</h3>
+                    <p class="text-grey-dark">Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-grey-darkest text-white py-8">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row justify-between">
+                <div class="mb-4 md:mb-0">
+                    <h4 class="text-xl font-bold mb-4">Contact Us</h4>
+                    <p>Email: info@example.com</p>
+                    <p>Phone: (123) 456-7890</p>
+                </div>
+                <div>
+                    <h4 class="text-xl font-bold mb-4">Follow Us</h4>
+                    <div class="flex space-x-4">
+                        <a href="#" class="hover:text-primary">Facebook</a>
+                        <a href="#" class="hover:text-primary">Twitter</a>
+                        <a href="#" class="hover:text-primary">LinkedIn</a>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-8 text-center text-grey-light">
+                <p>&copy; 2025 Your Company. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
